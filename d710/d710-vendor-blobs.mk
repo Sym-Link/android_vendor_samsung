@@ -15,11 +15,6 @@
 LOCAL_PATH := vendor/samsung/d710
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/bin/gpsd:system/bin/gpsd \
-    $(LOCAL_PATH)/proprietary/system/bin/immvibed:system/bin/immvibed \
-    $(LOCAL_PATH)/proprietary/system/bin/macloader:system/bin/macloader \
-    $(LOCAL_PATH)/proprietary/system/bin/mfgloader:system/bin/mfgloader \
-    $(LOCAL_PATH)/proprietary/system/bin/pppd_runner:system/bin/pppd_runner \
     $(LOCAL_PATH)/proprietary/system/etc/wimax_boot.bin:system/etc/wimax_boot.bin \
     $(LOCAL_PATH)/proprietary/system/framework/wimax.jar:system/framework/wimax.jar \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
