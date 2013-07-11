@@ -14,12 +14,19 @@
 
 LOCAL_PATH := vendor/samsung/d710
 
+# Prebuilt libraries that are needed to build open-source libraries
+PRODUCT_COPY_FILES := \
+    $(LOCAL_PATH)/proprietary/system/lib/libril.so:obj/lib/libril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:obj/lib/libsecril-client.so
+
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/system/etc/wimax_boot.bin:system/etc/wimax_boot.bin \
     $(LOCAL_PATH)/proprietary/system/framework/wimax.jar:system/framework/wimax.jar \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.smdk4210.so:system/lib/hw/sensors.smdk4210.so \
     $(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/lib/libakm.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libSECmWiMAXcAPI.so:system/lib/libSECmWiMAXcAPI.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsec-ril40.so:system/lib/libsec-ril40.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
