@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/klte-common/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
     vendor/samsung/klte-common/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-    vendor/samsung/klte-common/proprietary/lib/libTimeService.so:system/lib/libTimeService.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:system/vendor/lib/libactuator_ak7345_camcorder.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libactuator_ak7345_camera.so:system/vendor/lib/libactuator_ak7345_camera.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
